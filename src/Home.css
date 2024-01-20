@@ -1,0 +1,85 @@
+body, h1, h2, h3, p {
+    margin: 0;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212; /* bg */
+    color: #fff; /* text */
+  }
+
+/* textarea */
+  textarea {
+    width: calc(100% - 2rem); 
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #2c2c2c;
+    border-radius: 0.25rem;
+    resize: none;
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+
+  .prose {
+    color: #fff;
+  }
+  
+  /* Styles for links inside markdown previews */
+  .prose a {
+    color: #0366d6;
+    text-decoration: none;
+    border-bottom: 1px solid #0366d6;
+    transition: border-bottom 0.2s ease-in-out;
+  
+    &:hover {
+      border-bottom-color: transparent;
+    }
+  }
+
+/* Styles for the header */
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+/* Styles for horizontal line */
+hr {
+    border-top: 1px solid #2c2c2c;
+  }
+
+  .btn-documentation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #2980b9;
+    }
+  }
